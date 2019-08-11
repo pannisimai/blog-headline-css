@@ -1,0 +1,98 @@
+
+ html * {
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: linear-gradient(325deg, #006ac5, #49e46a);
+}
+
+.container,
+.video {
+  width: 600px;
+  position: relative;
+  padding: 30px;
+  margin: 0 auto;
+ 
+}
+
+.top,
+.middle,
+.bottom {
+  height: 250px;
+  background-color: white;
+  border-left-style: solid;
+  box-shadow: 0 8px 6px -6px black;
+  border: 0 px 1px 1px 1px solid grey;
+  margin-top: 0px;
+  padding: 30px ;
+}
+
+.top {
+  z-index: 3;
+  position: relative;
+  border-left-color: brown;
+
+}
+.middle {
+  z-index: 2;
+  position: relative;
+  border-left-color: blue;
+}
+
+.bottom {
+  border-left-color: red;
+}
+
+span {
+  opacity: 0.5;
+}
+
+article {
+  width: 300px;
+  height: 100px;
+  margin: 0;
+  font-size: 15px;
+  color: grey;
+}
+a {
+  text-decoration: none;
+ 
+}
+.link {
+  position: relative;
+  bottom: 20px;
+}
+.player {
+  width: 15px;
+}
+.placeholder {
+  float: right;
+  margin-top: -50px; 
+}
+.placeholder:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.video {
+  background-color:  white;
+  position: relative;
+  margin: 0 auto;
+  height: 650px;
+  width: 550px;
+  margin-bottom: 50px;
+  border-left-style: solid;
+  border-left-color: violet;
+}
+p {
+  width: 450px; 
+}
+.bunny {
+padding: 30px;
+}
+.gif {
+  height: 400px;
+}
